@@ -33,6 +33,7 @@ function LargeAnimatedWeddingInvitation() {
   const fileInputRef = useRef<HTMLInputElement>(null)
   const [isAutoPlaying, setIsAutoPlaying] = useState(true)
   const [slideDirection, setSlideDirection] = useState<"next" | "prev">("next")
+  const [hasUserInteracted, setHasUserInteracted] = useState(false)
 
   // Default music file - add your music file to public folder and change this path
   const defaultMusicFile = "/wedding-music.mp3" // Change this to your music file name
@@ -47,6 +48,32 @@ function LargeAnimatedWeddingInvitation() {
       console.log('Default music file not found. Please add your music file to public folder.')
     })
   }, [])
+
+  // Handle user interaction to enable autoplay
+  useEffect(() => {
+    const handleUserInteraction = () => {
+      if (!hasUserInteracted && audioRef.current && audioFile) {
+        setHasUserInteracted(true)
+        audioRef.current.play().then(() => {
+          setIsPlaying(true)
+        }).catch((error) => {
+          console.log('Play failed:', error)
+        })
+      }
+    }
+
+    // Add event listeners for user interaction
+    const events = ['click', 'touchstart', 'keydown', 'scroll']
+    events.forEach(event => {
+      document.addEventListener(event, handleUserInteraction, { once: true })
+    })
+
+    return () => {
+      events.forEach(event => {
+        document.removeEventListener(event, handleUserInteraction)
+      })
+    }
+  }, [hasUserInteracted, audioFile])
 
   useEffect(() => {
     // Auto-advance cards
