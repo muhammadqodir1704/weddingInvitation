@@ -626,7 +626,7 @@ function LargeAnimatedWeddingInvitation() {
                   <div className="space-y-4 md:space-y-6 text-gray-700 leading-relaxed animate-fade-in-up animation-delay-500">
                     {" "}
                     {/* Increased spacing */}
-                    <p className="text-base md:text-lg italic">&ldquo;Alloh ularning qalblarini sevgi ila birlashtirib&rdquo;</p>{" "}
+                    <p className="text-base md:text-lg italic">&ldquo;Alloh ularning qalblarini sevgi ila birlashtirdi&rdquo;</p>{" "}
                     {/* Increased text size */}
                     <p className="text-sm md:text-base text-gray-500">Anfol surasi 63-oyat</p> {/* Increased text size */}
                     <div className="my-6 md:my-10">
