@@ -641,16 +641,16 @@ function LargeAnimatedWeddingInvitation() {
                       mehmonimiz bo&apos;lishga taklif qilamiz!
                     </p>
                   </div>
-                  <div className="flex justify-center space-x-4 mt-12 animate-fade-in-up animation-delay-1500">
+                  <div className="flex justify-center space-x-4 mt-8 md:mt-12 animate-fade-in-up animation-delay-1500">
                     {" "}
                     {/* Increased spacing and margin */}
-                    <Heart className="w-10 h-10 text-rose-400 fill-current animate-pulse" /> {/* Increased size */}
+                    <Heart className="w-8 h-8 md:w-10 md:h-10 text-rose-400 fill-current animate-pulse" /> {/* Increased size */}
                     <Heart
-                      className="w-10 h-10 text-pink-400 fill-current animate-pulse"
+                      className="w-8 h-8 md:w-10 md:h-10 text-pink-400 fill-current animate-pulse"
                       style={{ animationDelay: "0.5s" }}
                     />
                     <Heart
-                      className="w-10 h-10 text-rose-400 fill-current animate-pulse"
+                      className="w-8 h-8 md:w-10 md:h-10 text-rose-400 fill-current animate-pulse"
                       style={{ animationDelay: "1s" }}
                     />
                   </div>
@@ -735,7 +735,7 @@ function LargeAnimatedWeddingInvitation() {
                       </svg>
                     </div>
                   </div>
-                  <div className="bg-gradient-to-r from-pink-100 to-rose-100 py-4 px-10 rounded-full animate-fade-in-up animation-delay-2700">
+                  <div className="bg-gradient-to-r from-pink-100 to-rose-100 py-3 md:py-4 px-6 md:px-10 rounded-full animate-fade-in-up animation-delay-2700">
                     {" "}
                     {/* Increased padding */}
                     <p className="text-lg md:text-xl text-gray-700 font-medium">03 • 09 • 2025</p> {/* Increased text size */}
