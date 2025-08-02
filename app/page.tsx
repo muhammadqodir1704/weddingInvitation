@@ -153,7 +153,7 @@ function LargeAnimatedWeddingInvitation() {
   }
 
   return (
-    <div className="h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-rose-50 relative overflow-hidden flex items-start">
+    <div className="h-screen bg-gradient-to-br from-rose-100 via-pink-100 to-rose-50 relative overflow-hidden flex items-start">
       {/* Enhanced floating particles animation */}
       <div className="absolute inset-0 overflow-hidden">
         {[...Array(40)].map((_, i) => (
@@ -251,7 +251,7 @@ function LargeAnimatedWeddingInvitation() {
       </div>
 
       <div className="container mx-auto px-4 py-4 relative z-10 flex items-start justify-center h-full pt-20">
-        <div className="relative w-full max-w-2xl">
+        <div className="relative w-full max-w-sm md:max-w-2xl">
           {" "}
           {/* Increased from max-w-md to max-w-2xl */}
           {/* Card 1 - Main Invitation */}
@@ -285,7 +285,7 @@ function LargeAnimatedWeddingInvitation() {
                       cy="55"
                       rx="12"
                       ry="22"
-                      fill="#8b5cf6"
+                      fill="#e879f9"
                       opacity="0.6"
                       transform="rotate(45 30 55)"
                       className="animate-sway"
@@ -295,7 +295,7 @@ function LargeAnimatedWeddingInvitation() {
                       cy="45"
                       rx="10"
                       ry="18"
-                      fill="#6366f1"
+                      fill="#d946ef"
                       opacity="0.5"
                       transform="rotate(-30 85 45)"
                       className="animate-sway"
@@ -305,7 +305,7 @@ function LargeAnimatedWeddingInvitation() {
                       cy="65"
                       rx="11"
                       ry="20"
-                      fill="#8b5cf6"
+                      fill="#e879f9"
                       opacity="0.6"
                       transform="rotate(60 115 65)"
                       className="animate-sway"
@@ -328,7 +328,7 @@ function LargeAnimatedWeddingInvitation() {
                       cy="55"
                       rx="12"
                       ry="22"
-                      fill="#8b5cf6"
+                      fill="#e879f9"
                       opacity="0.6"
                       transform="rotate(45 30 55)"
                       className="animate-sway"
@@ -338,7 +338,7 @@ function LargeAnimatedWeddingInvitation() {
                       cy="45"
                       rx="10"
                       ry="18"
-                      fill="#6366f1"
+                      fill="#d946ef"
                       opacity="0.5"
                       transform="rotate(-30 85 45)"
                       className="animate-sway"
@@ -364,7 +364,7 @@ function LargeAnimatedWeddingInvitation() {
                       cy="55"
                       rx="12"
                       ry="22"
-                      fill="#8b5cf6"
+                      fill="#e879f9"
                       opacity="0.6"
                       transform="rotate(45 30 55)"
                       className="animate-sway"
@@ -374,7 +374,7 @@ function LargeAnimatedWeddingInvitation() {
                       cy="45"
                       rx="10"
                       ry="18"
-                      fill="#6366f1"
+                      fill="#d946ef"
                       opacity="0.5"
                       transform="rotate(-30 85 45)"
                       className="animate-sway"
@@ -396,7 +396,7 @@ function LargeAnimatedWeddingInvitation() {
                       cy="55"
                       rx="12"
                       ry="22"
-                      fill="#8b5cf6"
+                      fill="#e879f9"
                       opacity="0.6"
                       transform="rotate(45 30 55)"
                       className="animate-sway"
@@ -407,31 +407,31 @@ function LargeAnimatedWeddingInvitation() {
                 </div>
               </div>
 
-              <CardContent className="p-8 relative z-10">
+              <CardContent className="p-4 md:p-8 relative z-10">
                 {" "}
                 {/* Increased padding */}
-                <div className="text-center mb-8 mt-8">
+                <div className="text-center mb-6 md:mb-8 mt-6 md:mt-8">
                   {" "}
                   {/* Increased margins */}
-                  <p className="text-lg text-gray-600 tracking-widest mb-6 font-light animate-fade-in-up">
+                  <p className="text-sm md:text-lg text-gray-600 tracking-widest mb-6 font-light animate-fade-in-up">
                     {" "}
                     {/* Increased text size */}
                     WEDDING DAY
                   </p>
-                  <div className="mb-12">
+                  <div className="mb-8 md:mb-12">
                     {" "}
                     {/* Increased margin */}
-                    <h1 className="text-6xl font-bold text-gray-800 mb-4 font-serif tracking-wide animate-slide-in-left animation-delay-300">
+                    <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4 font-serif tracking-wide animate-slide-in-left animation-delay-300">
                       {" "}
                       {/* Increased text size */}
                       JALOLIDDIN
                     </h1>
                     <div className="flex items-center justify-center mb-4 animate-scale-in animation-delay-600">
-                      <div className="w-12 h-px bg-rose-400"></div> {/* Increased width */}
-                      <span className="text-4xl text-rose-400 mx-4">&</span> {/* Increased text size and margin */}
-                      <div className="w-12 h-px bg-rose-400"></div>
+                      <div className="w-8 md:w-12 h-px bg-rose-400"></div> {/* Increased width */}
+                      <span className="text-2xl md:text-4xl text-rose-400 mx-2 md:mx-4">&</span> {/* Increased text size and margin */}
+                      <div className="w-8 md:w-12 h-px bg-rose-400"></div>
                     </div>
-                    <h1 className="text-6xl font-bold text-gray-800 font-serif tracking-wide animate-slide-in-right animation-delay-900">
+                    <h1 className="text-4xl md:text-6xl font-bold text-gray-800 font-serif tracking-wide animate-slide-in-right animation-delay-900">
                       SEVINCH
                     </h1>
                   </div>
@@ -452,20 +452,20 @@ function LargeAnimatedWeddingInvitation() {
                       <circle cx="105" cy="12" r="3" fill="#f472b6" className="animate-pulse-slow" />
                     </svg>
                   </div>
-                  <div className="mb-10 animate-fade-in-up animation-delay-1500">
+                  <div className="mb-8 md:mb-10 animate-fade-in-up animation-delay-1500">
                     {" "}
                     {/* Increased margin */}
-                    <p className="text-2xl text-gray-700 font-medium mb-2">Yakshanba</p> {/* Increased text size */}
-                    <p className="text-4xl font-bold text-gray-800 my-4">03.09.2025</p> {/* Increased text size */}
-                    <p className="text-2xl text-gray-700 font-medium">18:00</p>
+                    <p className="text-lg md:text-2xl text-gray-700 font-medium mb-2">Yakshanba</p> {/* Increased text size */}
+                    <p className="text-2xl md:text-4xl font-bold text-gray-800 my-4">03.09.2025</p> {/* Increased text size */}
+                    <p className="text-lg md:text-2xl text-gray-700 font-medium">19:00</p>
                   </div>
-                  <div className="mb-12 animate-fade-in-up animation-delay-1800">
+                  <div className="mb-8 md:mb-12 animate-fade-in-up animation-delay-1800">
                     {" "}
                     {/* Increased margin */}
-                    <p className="text-gray-600 text-base mb-3">Sherobod tumani</p> {/* Increased text size */}
-                    <p className="text-2xl font-semibold text-gray-800 mb-2">&ldquo;Al Amin&rdquo; to&apos;yxonasi</p>{" "}
+                    <p className="text-gray-600 text-sm md:text-base mb-3">Sherobod tumani</p> {/* Increased text size */}
+                    <p className="text-lg md:text-2xl font-semibold text-gray-800 mb-2">&ldquo;Al Amin&rdquo; to&apos;yxonasi</p>{" "}
                     {/* Increased text size */}
-                    <p className="text-gray-600 text-base mt-3">Eshboy Avazovlar xonadoni</p>
+                    <p className="text-gray-600 text-sm md:text-base mt-3">Eshboy Avazovlar xonadoni</p>
                   </div>
                   <div className="flex justify-center animate-fade-in-up animation-delay-2100">
                     <svg width="140" height="25" viewBox="0 0 140 25">
@@ -609,32 +609,32 @@ function LargeAnimatedWeddingInvitation() {
                 </svg>
               </div>
 
-              <CardContent className="p-8 relative z-10">
+              <CardContent className="p-4 md:p-8 relative z-10">
                 {" "}
                 {/* Increased padding */}
-                <div className="text-center py-12">
+                <div className="text-center py-8 md:py-12">
                   {" "}
                   {/* Increased padding */}
-                  <div className="bg-gradient-to-r from-pink-200 to-rose-200 py-6 px-12 rounded-lg mb-12 relative animate-scale-in">
+                  <div className="bg-gradient-to-r from-pink-200 to-rose-200 py-4 md:py-6 px-6 md:px-12 rounded-lg mb-8 md:mb-12 relative animate-scale-in">
                     {" "}
                     {/* Increased padding and margin */}
                     <div className="absolute inset-0 bg-gradient-to-r from-pink-300/20 to-rose-300/20 rounded-lg"></div>
-                    <h2 className="text-4xl font-bold text-gray-800 relative z-10 mb-2">SIZNI KUTIB</h2>{" "}
+                    <h2 className="text-2xl md:text-4xl font-bold text-gray-800 relative z-10 mb-2">SIZNI KUTIB</h2>{" "}
                     {/* Increased text size */}
-                    <h2 className="text-4xl font-bold text-gray-800 relative z-10">QOLAMIZ!</h2>
+                    <h2 className="text-2xl md:text-4xl font-bold text-gray-800 relative z-10">QOLAMIZ!</h2>
                   </div>
-                  <div className="space-y-6 text-gray-700 leading-relaxed animate-fade-in-up animation-delay-500">
+                  <div className="space-y-4 md:space-y-6 text-gray-700 leading-relaxed animate-fade-in-up animation-delay-500">
                     {" "}
                     {/* Increased spacing */}
-                    <p className="text-lg italic">&ldquo;Alloh ularning qalblarini sevgi ila birlashtirib&rdquo;</p>{" "}
+                    <p className="text-base md:text-lg italic">&ldquo;Alloh ularning qalblarini sevgi ila birlashtirib&rdquo;</p>{" "}
                     {/* Increased text size */}
-                    <p className="text-base text-gray-500">Anfol surasi 63-oyat</p> {/* Increased text size */}
-                    <div className="my-10">
+                    <p className="text-sm md:text-base text-gray-500">Anfol surasi 63-oyat</p> {/* Increased text size */}
+                    <div className="my-6 md:my-10">
                       {" "}
                       {/* Increased margin */}
-                      <div className="w-24 h-px bg-rose-300 mx-auto animate-expand-width"></div> {/* Increased width */}
+                      <div className="w-16 md:w-24 h-px bg-rose-300 mx-auto animate-expand-width"></div> {/* Increased width */}
                     </div>
-                    <p className="text-xl animate-fade-in-up animation-delay-1000 leading-relaxed">
+                    <p className="text-base md:text-xl animate-fade-in-up animation-delay-1000 leading-relaxed">
                       {" "}
                       {/* Increased text size */}
                       Sizni hayotimizdagi eng baxtiyar kun nikoh to&apos;yiga bag&apos;ishlangan tantanali kechaning aziz
@@ -669,13 +669,13 @@ function LargeAnimatedWeddingInvitation() {
             }`}
           >
             <Card className="bg-white shadow-2xl border-0 overflow-hidden relative animate-card-entrance transform hover:scale-105 transition-transform duration-500">
-              <CardContent className="p-8 relative z-10">
+              <CardContent className="p-4 md:p-8 relative z-10">
                 {" "}
                 {/* Increased padding */}
-                <div className="text-center py-12">
+                <div className="text-center py-8 md:py-12">
                   {" "}
                   {/* Increased padding */}
-                  <div className="relative mx-auto w-64 h-64 mb-12 animate-scale-in">
+                  <div className="relative mx-auto w-48 h-48 md:w-64 md:h-64 mb-8 md:mb-12 animate-scale-in">
                     {" "}
                     {/* Increased size and margin */}
                     <svg viewBox="0 0 260 260" className="w-full h-full absolute inset-0">
@@ -698,7 +698,7 @@ function LargeAnimatedWeddingInvitation() {
                       />
                     </svg>
                     <div className="absolute inset-0 flex items-center justify-center animate-fade-in-up animation-delay-1000">
-                      <div className="text-8xl font-bold text-rose-500">
+                      <div className="text-6xl md:text-8xl font-bold text-rose-500">
                         {" "}
                         {/* Increased text size */}
                         <span className="font-serif animate-bounce-in">J</span>
@@ -738,7 +738,7 @@ function LargeAnimatedWeddingInvitation() {
                   <div className="bg-gradient-to-r from-pink-100 to-rose-100 py-4 px-10 rounded-full animate-fade-in-up animation-delay-2700">
                     {" "}
                     {/* Increased padding */}
-                    <p className="text-xl text-gray-700 font-medium">03 • 09 • 2025</p> {/* Increased text size */}
+                    <p className="text-lg md:text-xl text-gray-700 font-medium">03 • 09 • 2025</p> {/* Increased text size */}
                   </div>
                 </div>
               </CardContent>
