@@ -461,7 +461,7 @@ function LargeAnimatedWeddingInvitation() {
                   <div className="mb-8 md:mb-10 animate-fade-in-up animation-delay-1500">
                     {" "}
                     {/* Increased margin */}
-                    <p className="text-lg md:text-2xl text-purple-500 font-medium mb-2 font-dancing">Yakshanba</p> {/* Increased text size */}
+                    <p className="text-lg md:text-2xl text-purple-500 font-medium mb-2 font-dancing">Chorshanba</p> {/* Increased text size */}
                     <p className="text-2xl md:text-4xl font-bold text-purple-600 my-4 font-playfair">03.09.2025</p> {/* Increased text size */}
                     <p className="text-lg md:text-2xl text-purple-500 font-medium font-dancing">19:00</p>
                   </div>
