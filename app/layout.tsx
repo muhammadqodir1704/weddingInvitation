@@ -1,10 +1,14 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter, Playfair_Display } from "next/font/google"
+import { Inter, Playfair_Display, Dancing_Script, Great_Vibes, Pacifico, Satisfy } from "next/font/google"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif" })
+const dancingScript = Dancing_Script({ subsets: ["latin"], variable: "--font-dancing", weight: "400" })
+const greatVibes = Great_Vibes({ subsets: ["latin"], variable: "--font-great-vibes", weight: "400" })
+const pacifico = Pacifico({ subsets: ["latin"], variable: "--font-pacifico", weight: "400" })
+const satisfy = Satisfy({ subsets: ["latin"], variable: "--font-satisfy", weight: "400" })
 
 export const metadata: Metadata = {
   title: "Jaloliddin & Sevinch - To'y Taklifnomasi | 03.09.2025",
@@ -47,7 +51,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="uz" className={`${playfair.variable}`}>
+    <html lang="uz" className={`${playfair.variable} ${dancingScript.variable} ${greatVibes.variable} ${pacifico.variable} ${satisfy.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
